@@ -14,10 +14,30 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('assets/donut-background.png') no-repeat;
+    background-color: #131316;
     background-size: cover;
     background-position: center;
 }
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    margin-bottom: 50px;
+    color: #4f5ce4;
+    padding: 50px;
+    overflow-wrap: break-word;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
+
 
  header {
     position: fixed;
@@ -81,7 +101,7 @@ body {
 
 .navigation .btnLogin-popup:hover {
     background: #fff;
-    color: #162938;
+    color: white;
 
 }
 
@@ -156,14 +176,14 @@ body {
 
 .form-box h2 {
     font-size: 2em;
-    color: #162938;
+    color: white;
     text-align: center;
 }
 .input-box {
     position: relative;
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid #162938;
+    border-bottom: 2px solid white;
     margin: 30px 0;
 }
 
@@ -173,7 +193,7 @@ body {
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
-    color: #162938;
+    color: white;
     font-weight: 500;
     pointer-events: none;
 }
@@ -190,7 +210,7 @@ body {
     border: none;
     outline: none;
     font-size: 1em;
-    color: #162938;
+    color: #fff;
     font-weight: 600;
     padding: 0 35px 0 5px;
 }
@@ -198,25 +218,25 @@ body {
     position: absolute;
     right: 8px;
     font-size: 1.2em;
-    color: #162938;
+    color: white;
     line-height: 57px;
 }
 
 .remember-forgot {
     font-size: .9em;
-    color: #162938;
+    color: white;
     font-weight: 500;
     margin: -15px 0 15px;
     display: flex;
     justify-content: space-between;
 }
 .remember-forgot label input {
-    accent-color: #162938;
+    accent-color: white;
     margin-right: 3px;
 }
 
 .remember-forgot a {
-    color: #162938;
+    color: white;
     text-decoration: none;
 }
 
@@ -239,14 +259,14 @@ body {
 
 .login-register {
     font-size: .9em;
-    color: #162938;
+    color: white;
     text-align: center;
     font-weight: 500;
     margin: 25px 0 10px;
 }
 
 .login-register p a {
-    color: #162938;
+    color: white;
     text-decoration: none;
     font-weight: 600;
 }
@@ -259,19 +279,20 @@ body {
 .content .info h1 {
     font-family: 'Archivo Black';
     font-size: 10em;
-    color: #4d2dc2;
+    color: #4f5ce4;
     text-align: center;
     font-weight: 500;
     text-shadow: 2px 2px 3px black;
-    margin: auto;
+    margin: auto;    
 }
 
 .content .info p {
     font-family: 'Archivo Black';
     font-size: 1em;
-    color: #2700b4;
+    color: #4f5ce4;
     text-align: center;
     font-weight: 500;
     text-shadow: 1px 1px 2px black;
-    margin: auto;
+    padding-bottom: 20px;
 }
+
