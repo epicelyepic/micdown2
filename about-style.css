@@ -26,7 +26,7 @@ section {
     align-content: center;
     min-height: 100vh;
     margin-bottom: 50px;
-    color: #4f5ce4;
+    color: #6c91f0;
     padding: 50px;
     overflow-wrap: break-word;
 }
@@ -280,8 +280,8 @@ section {
 
 .content .info h1 {
     font-family: 'Archivo Black';
-    font-size: 10em;
-    color: #4f5ce4;
+    font-size: 7em;
+    color: #6c91f0;
     text-align: left;
     font-weight: 500;
     margin: auto; 
@@ -290,17 +290,9 @@ section {
 .content .info p {
     font-family: 'Rubik';
     font-size: 1em;
-    color: #4f5ce4;
+    color: #6c91f0;
     text-align: left;
     font-weight: 500;
     padding-bottom: 20px;
 }
 
-.content .info h2 {
-    font-family: 'Archivo Black';
-    font-size: 5em;
-    color: #4f5ce4;
-    text-align: left;
-    font-weight: 500;
-    padding-bottom: 20px;
-}
